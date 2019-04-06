@@ -36,6 +36,8 @@ public class DeleteSubjectServlet extends HttpServlet {
         ArrayList<Subjects> registedSubjects = (ArrayList<Subjects>) session.getAttribute("registerSubjects");
         registedSubjects = deleteRegisterSubject(registedSubjects, registedSubject);
         
+        session.setAttribute("registerSubjects", registedSubjects);
+        
         RequestDispatcher dp = req.getRequestDispatcher("./summary.jsp");
         dp.forward(req, resp);
        
