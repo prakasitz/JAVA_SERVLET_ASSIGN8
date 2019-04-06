@@ -55,7 +55,7 @@ public class DeleteSubjectServlet extends HttpServlet {
             }
         }
         
-        return registedSubjects;
+        return registedSubjects; // จริงๆ ใช้วิธี remove(obj ตัวนั้น) เลยก็ได้นะ ไม่ต้อง loop ตามก็ได้ , จากนั้นจะ setSession ใหม่ หรือไม่ set แบบเราก็ได้ เพราะมันมีค่าเทากัน
     }
     
 
