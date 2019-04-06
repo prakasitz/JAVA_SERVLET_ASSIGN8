@@ -2,13 +2,21 @@
 week9_MVC
 ## >> รายละเอียด <<
 
+## view
+| Main Files   |      Link      |  Description |
+|----------|-------------|------|
+| index.html |  [index.html](https://github.com/prakasitz/JAVA_SERVLET_ASSIGN8/tree/master/web/index.html) | หน้า login  |
+| login_fail.jsp |    [login_fail.jsp](https://github.com/prakasitz/JAVA_SERVLET_ASSIGN8/tree/master/web/login_fail.jsp)   | ถ้า login ไม่ผ่าน ตัว LoginServlet จะ forward มาหน้านี้ |
+| subject_list.jsp |    [subject_list.jsp](https://github.com/prakasitz/JAVA_SERVLET_ASSIGN8/tree/master/web/subject_list.jsp)   | login สำเร็จ จะ set session User, session subjectlist และมาหน้านี้ เพื่อแสดงรายการวิชาต่างๆ |
+| summary.jsp |    [summary.jsp](https://github.com/prakasitz/JAVA_SERVLET_ASSIGN8/tree/master/web/summary.jsp)   | หน้านี้จะแสดง รายการที่เรากด regist subject ซึ่ง จะอยุใน session แล้ว loop เอามาแสดง |
+
 ## my.model
 | Main Files   |      Link      |  Description |
 |----------|-------------|------|
 | Users.java |  [Users.java](https://github.com/prakasitz/JAVA_SERVLET_ASSIGN8/blob/master/src/java/my/model/Users.java) | เป็น model ที่เป็นตัวสำหรับดึง DB ของ Users  |
 | Subjects.java |    [Subjects.java](https://github.com/prakasitz/JAVA_SERVLET_ASSIGN8/blob/master/src/java/my/model/Subjects.java)   | สำหรับการดึง DB ของ Subjects |
 
-## my.DB
+## my.db
 | Main Files   |      Link      |  Description |
 |----------|-------------|------|
 | UserDB.java |  [Users.java](https://github.com/prakasitz/JAVA_SERVLET_ASSIGN8/blob/master/src/java/my/db/UserDB.java) | จำลองฐานข้อมูลของ Users |
