@@ -1,6 +1,9 @@
 # JAVA_SERVLET_ASSIGN8
 week9_MVC
-First Header | Second Header
------------- | -------------
-Content from cell 1 | Content from cell 2
-Content in the first column | Content in the second column
+
+
+| Tables   |      Are      |  Cool |
+|----------|-------------|------|
+| col 1 is |  left-aligned | $1600 |
+| col 2 is |    centered   |   $12 |
+| col 3 is | right-aligned |    $1 |
