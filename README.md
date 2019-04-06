@@ -23,7 +23,7 @@ week9_MVC
 | Main Files   |      Link      |  Description |
 |----------|-------------|------|
 | UserDB.java |  [Users.java](https://github.com/prakasitz/JAVA_SERVLET_ASSIGN8/blob/master/src/java/my/db/UserDB.java) | จำลองฐานข้อมูลของ Users |
-| SubjectDB.java |    [Subjects.java](https://github.com/prakasitz/JAVA_SERVLET_ASSIGN8/blob/master/src/java/my/db/SubjectDB.java)   | ำลองฐานข้อมูลของ Subjects |
+| SubjectDB.java |    [Subjects.java](https://github.com/prakasitz/JAVA_SERVLET_ASSIGN8/blob/master/src/java/my/db/SubjectDB.java)   |จำลองฐานข้อมูลของ Subjects |
 
 
 ## my.controller
