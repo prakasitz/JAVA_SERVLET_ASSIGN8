@@ -1,7 +1,10 @@
 # JAVA_SERVLET_ASSIGN8
 week9_MVC
 ## >> รายละเอียด <<
-
+## web.xml
+| Main Files   |      Link      |  Description |
+|----------|-------------|------|
+| web.xml |  [web.xml](https://github.com/prakasitz/JAVA_SERVLET_ASSIGN8/blob/master/web/WEB-INF/web.xml) | config file มีการใช้ context สำหรับเก็บ max หน่วยกิต  |
 ## view
 | Main Files   |      Link      |  Description |
 |----------|-------------|------|
